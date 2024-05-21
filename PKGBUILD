@@ -4,11 +4,11 @@ pkgver=0.1.0
 pkgrel=1
 pkgdesc="A simple CLI tool written in Rust"
 arch=('x86_64')
-url="https://github.com/Zane-Dev14/ClearchTest"
+url="https://github.com/Zane-Dev14/ClearchOnlyTar"
 license=('MIT')
 depends=('glibc')
 makedepends=('rust' 'cargo')
-source=("$pkgname-$pkgver.tar.gz::https://github.com/The-Capstone-Project/Clearch/archive/refs/tags/v$pkgver.tar.gz")
+source=("https://github.com/Zane-Dev14/ClearchOnlyTar/raw/main/clearch-cli-0.1.0.tar.gz")
 sha256sums=('SKIP')
 
 build() {
